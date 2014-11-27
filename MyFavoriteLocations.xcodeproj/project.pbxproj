@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		B05224061A0A6DDC00B58A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05224051A0A6DDC00B58A0A /* AppDelegate.swift */; };
 		B05224091A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B05224071A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodeld */; };
-		B052240B1A0A6DDC00B58A0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052240A1A0A6DDC00B58A0A /* ViewController.swift */; };
 		B052240E1A0A6DDC00B58A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B052240C1A0A6DDC00B58A0A /* Main.storyboard */; };
 		B05224101A0A6DDC00B58A0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B052240F1A0A6DDC00B58A0A /* Images.xcassets */; };
 		B05224131A0A6DDC00B58A0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B05224111A0A6DDC00B58A0A /* LaunchScreen.xib */; };
 		B052241F1A0A6DDC00B58A0A /* MyFavoriteLocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052241E1A0A6DDC00B58A0A /* MyFavoriteLocationsTests.swift */; };
+		B05224291A0A705000B58A0A /* FavoritePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05224281A0A705000B58A0A /* FavoritePlace.swift */; };
+		B052242D1A0A779700B58A0A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B052242C1A0A779700B58A0A /* CoreData.framework */; };
+		B052242F1A0A77C000B58A0A /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052242E1A0A77C000B58A0A /* LocationsViewController.swift */; };
+		B06B80591A0C032800C413DC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06B80581A0C032800C413DC /* MapKit.framework */; };
+		B06B805B1A0C033700C413DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06B805A1A0C033700C413DC /* CoreLocation.framework */; };
+		B07D6B751A0A859900A855BF /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07D6B741A0A859900A855BF /* LocationViewController.swift */; };
+		B0986D361A1610BD00274DC0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0986D351A1610BD00274DC0 /* MobileCoreServices.framework */; };
+		B0B494C71A0C28F40036B620 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06B80581A0C032800C413DC /* MapKit.framework */; };
+		B0D9222A1A13919D005F21AA /* NewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D922291A13919D005F21AA /* NewLocationViewController.swift */; };
+		B0D9222C1A1391C5005F21AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D9222B1A1391C5005F21AA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +40,22 @@
 		B05224041A0A6DDC00B58A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B05224051A0A6DDC00B58A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B05224081A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFavoriteLocations.xcdatamodel; sourceTree = "<group>"; };
-		B052240A1A0A6DDC00B58A0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B052240D1A0A6DDC00B58A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B052240F1A0A6DDC00B58A0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B05224121A0A6DDC00B58A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B05224181A0A6DDC00B58A0A /* MyFavoriteLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavoriteLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B052241D1A0A6DDC00B58A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B052241E1A0A6DDC00B58A0A /* MyFavoriteLocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteLocationsTests.swift; sourceTree = "<group>"; };
+		B05224281A0A705000B58A0A /* FavoritePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritePlace.swift; sourceTree = "<group>"; };
+		B052242C1A0A779700B58A0A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B052242E1A0A77C000B58A0A /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		B06B80581A0C032800C413DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B06B805A1A0C033700C413DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B07D6B741A0A859900A855BF /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B0986D351A1610BD00274DC0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B0B494C61A0C23530036B620 /* MyFavoriteLocations 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MyFavoriteLocations 2.xcdatamodel"; sourceTree = "<group>"; };
+		B0D922291A13919D005F21AA /* NewLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLocationViewController.swift; sourceTree = "<group>"; };
+		B0D9222B1A1391C5005F21AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0986D361A1610BD00274DC0 /* MobileCoreServices.framework in Frameworks */,
+				B0D9222C1A1391C5005F21AA /* AVFoundation.framework in Frameworks */,
+				B06B805B1A0C033700C413DC /* CoreLocation.framework in Frameworks */,
+				B06B80591A0C032800C413DC /* MapKit.framework in Frameworks */,
+				B052242D1A0A779700B58A0A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B494C71A0C28F40036B620 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,11 @@
 		B05223F71A0A6DDB00B58A0A = {
 			isa = PBXGroup;
 			children = (
+				B0986D351A1610BD00274DC0 /* MobileCoreServices.framework */,
+				B0D9222B1A1391C5005F21AA /* AVFoundation.framework */,
+				B06B805A1A0C033700C413DC /* CoreLocation.framework */,
+				B06B80581A0C032800C413DC /* MapKit.framework */,
+				B052242C1A0A779700B58A0A /* CoreData.framework */,
 				B05224021A0A6DDC00B58A0A /* MyFavoriteLocations */,
 				B052241B1A0A6DDC00B58A0A /* MyFavoriteLocationsTests */,
 				B05224011A0A6DDC00B58A0A /* Products */,
@@ -80,12 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				B05224051A0A6DDC00B58A0A /* AppDelegate.swift */,
-				B052240A1A0A6DDC00B58A0A /* ViewController.swift */,
 				B052240C1A0A6DDC00B58A0A /* Main.storyboard */,
 				B052240F1A0A6DDC00B58A0A /* Images.xcassets */,
 				B05224111A0A6DDC00B58A0A /* LaunchScreen.xib */,
 				B05224071A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodeld */,
+				B05224281A0A705000B58A0A /* FavoritePlace.swift */,
+				B052242E1A0A77C000B58A0A /* LocationsViewController.swift */,
+				B07D6B741A0A859900A855BF /* LocationViewController.swift */,
 				B05224031A0A6DDC00B58A0A /* Supporting Files */,
+				B0D922291A13919D005F21AA /* NewLocationViewController.swift */,
 			);
 			path = MyFavoriteLocations;
 			sourceTree = "<group>";
@@ -215,9 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B052240B1A0A6DDC00B58A0A /* ViewController.swift in Sources */,
+				B0D9222A1A13919D005F21AA /* NewLocationViewController.swift in Sources */,
+				B07D6B751A0A859900A855BF /* LocationViewController.swift in Sources */,
 				B05224091A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodeld in Sources */,
+				B05224291A0A705000B58A0A /* FavoritePlace.swift in Sources */,
 				B05224061A0A6DDC00B58A0A /* AppDelegate.swift in Sources */,
+				B052242F1A0A77C000B58A0A /* LocationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +446,7 @@
 				B05224241A0A6DDC00B58A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05224251A0A6DDC00B58A0A /* Build configuration list for PBXNativeTarget "MyFavoriteLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +455,7 @@
 				B05224271A0A6DDC00B58A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -426,6 +463,7 @@
 		B05224071A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				B0B494C61A0C23530036B620 /* MyFavoriteLocations 2.xcdatamodel */,
 				B05224081A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodel */,
 			);
 			currentVersion = B05224081A0A6DDC00B58A0A /* MyFavoriteLocations.xcdatamodel */;
